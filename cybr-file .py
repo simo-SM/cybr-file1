@@ -49,8 +49,8 @@ if __name__ == "__main__":
 
           ''')
     print("\033[33m===================================================================================")
-
-    path = "C:\\Users\\Administrator\\Pictures"
+    #here isthe file path 
+    path = input("Please type here the file path [EX-->|C:\\Users\\Administrator\\Pictures]: ")
     evo = FileSystemEventHandler()
     evo.on_created = created
     evo.on_deleted = deleted
