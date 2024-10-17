@@ -95,7 +95,7 @@ def create_gui():
     root.configure(bg="#1c1f1c")
 
     #===========imge is icon ======================
-    img=tk.PhotoImage(file="C:/Users/Administrator/Pictures/grop-file.png")
+    img=tk.PhotoImage(file="image/grop-file.png")
     root.iconphoto(False,img)
     #===========imge is icon ======================
 
@@ -104,7 +104,7 @@ def create_gui():
     label.pack(pady=10)
 
     # Load the background image
-    background_image = Image.open("C:/Users/Administrator/Pictures/bg.jpeg")  # استبدل هذا بالمسار الصحيح للصورة
+    background_image = Image.open("image/bg.jpeg")  # استبدل هذا بالمسار الصحيح للصورة
 
     # Create a label to hold the background image
     background_image = background_image.resize((700, 800))  # تغيير الحجم ليتناسب مع النافذة
