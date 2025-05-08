@@ -37,7 +37,7 @@ Run the script:
 ## python cyber_file.py
 Use ( Ctrl + C )to stop the script.
 
-## Example Output:
+Example Output:
 ==================================================
 file [ C:\Users\Administrator\Pictures\example.jpg ] created
 file [ C:\Users\Administrator\Pictures\example.png ] deleted
