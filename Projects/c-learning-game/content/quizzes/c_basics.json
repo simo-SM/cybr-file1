@@ -1,0 +1,66 @@
+{
+  "title": "C Basics",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which type stores whole numbers?",
+      "choices": ["int", "double", "char[]", "float"],
+      "answer_index": 0
+    },
+    {
+      "id": "q2",
+      "question": "What does printf do?",
+      "choices": ["Prints formatted output", "Allocates memory", "Reads a file", "Sorts an array"],
+      "answer_index": 0
+    },
+    {
+      "id": "q3",
+      "question": "Which character terminates a C string?",
+      "choices": ["\\0", "\\n", "space", "tab"],
+      "answer_index": 0
+    },
+    {
+      "id": "q4",
+      "question": "Which header declares malloc and free?",
+      "choices": ["stdlib.h", "stdio.h", "string.h", "ctype.h"],
+      "answer_index": 0
+    },
+    {
+      "id": "q5",
+      "question": "Which keyword prevents modification of a variable?",
+      "choices": ["const", "static", "extern", "auto"],
+      "answer_index": 0
+    },
+    {
+      "id": "q6",
+      "question": "What does return do in a function?",
+      "choices": ["Exits the function and outputs a value", "Prints text", "Allocates memory", "Starts a loop"],
+      "answer_index": 0
+    },
+    {
+      "id": "q7",
+      "question": "Which loop repeats while a condition remains true?",
+      "choices": ["while", "switch", "break", "case"],
+      "answer_index": 0
+    },
+    {
+      "id": "q8",
+      "question": "Which operator obtains the address of a variable?",
+      "choices": ["&", "*", "++", "--"],
+      "answer_index": 0
+    },
+    {
+      "id": "q9",
+      "question": "Which function compares two strings?",
+      "choices": ["strcmp", "strcpy", "strlen", "strcat"],
+      "answer_index": 0
+    },
+    {
+      "id": "q10",
+      "question": "What is the result type of sizeof operator?",
+      "choices": ["size_t", "int", "long", "float"],
+      "answer_index": 0
+    }
+  ]
+}
+

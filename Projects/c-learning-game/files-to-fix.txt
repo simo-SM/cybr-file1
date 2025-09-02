@@ -1,0 +1,17 @@
+C:\Users\Administrator\Projects\c-learning-game\content\challenges\ft_is_negative\tests.c
+C:\Users\Administrator\Projects\c-learning-game\content\challenges\ft_putchar\tests.c
+C:\Users\Administrator\Projects\c-learning-game\content\challenges\ft_print_comb\tests.c
+C:\Users\Administrator\Projects\clg-js\workspace\ft_putchar\user_code.c
+C:\Users\Administrator\Projects\c-learning-game\src\content.c
+C:\Users\Administrator\Projects\c-learning-game\src\content.h
+C:\Users\Administrator\Projects\c-learning-game\src\fs.c
+C:\Users\Administrator\Projects\c-learning-game\src\fs.h
+C:\Users\Administrator\Projects\c-learning-game\src\game.c
+C:\Users\Administrator\Projects\c-learning-game\src\game.h
+C:\Users\Administrator\Projects\c-learning-game\src\grader.c
+C:\Users\Administrator\Projects\c-learning-game\src\grader.h
+C:\Users\Administrator\Projects\c-learning-game\src\json.c
+C:\Users\Administrator\Projects\c-learning-game\src\json.h
+C:\Users\Administrator\Projects\c-learning-game\src\main.c
+C:\Users\Administrator\Projects\c-learning-game\src\ui.c
+C:\Users\Administrator\Projects\c-learning-game\src\ui.h
