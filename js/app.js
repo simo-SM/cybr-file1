@@ -10,49 +10,60 @@ function downloadFile(type) {
   const percent = document.getElementById('download-percent');
   const filename = document.getElementById('download-filename');
   const status = document.getElementById('download-status');
-  
+
   progressDiv.classList.remove('hidden');
-  
+
+  // Define file details based on type
   const files = {
-    exe: { name: 'cyberfile_v2.7.exe', size: '12.4 MB' },
-    source: { name: 'cyber-file-v2.7.zip', size: '45 KB' }
+    exe: { 
+      name: 'cyberFileApp.exe', 
+      size: '12.4 MB', 
+      url: 'https://github.com/simo-SM/cybr-file1/releases/download/v2.0.0/cyberFileApp.exe' 
+    },
+    source: { 
+      name: 'cyberFileV2.exe',
+      size: '45 KB', 
+      url: 'https://github.com/simo-SM/cybr-file1/releases/download/v2.0.0/cyberFileV2.exe' 
+    }
   };
-  
+
   const file = files[type];
-  filename.textContent = `Downloading ${file.name} (${file.size})...`;
-  
+  if (!file) return;
+
+  filename.textContent = `INITIALIZING DOWNLOAD: ${file.name}`;
+
   let progress = 0;
   const interval = setInterval(() => {
-    progress += Math.random() * 15;
+    progress += Math.random() * 12; 
     if (progress > 100) progress = 100;
-    
-    bar.style.width = progress + '%';
-    percent.textContent = Math.floor(progress) + '%';
-    
-    if (progress < 30) status.textContent = 'Connecting to server...';
-    else if (progress < 60) status.textContent = 'Downloading packages...';
-    else if (progress < 90) status.textContent = 'Verifying checksum...';
-    else status.textContent = 'Finalizing...';
-    
+
+    bar.style.width = `${progress}%`;
+    percent.textContent = `${Math.floor(progress)}%`;
+
+    if (progress < 25) status.textContent = '> Establishing handshake...';
+    else if (progress < 50) status.textContent = '> Requesting data packets...';
+    else if (progress < 90) status.textContent = '> Verifying SHA-256...';
+    else status.textContent = '> Done.';
+
     if (progress === 100) {
       clearInterval(interval);
       setTimeout(() => {
-        showToast('Download Complete', `${file.name} saved to Downloads`);
-        progressDiv.classList.add('hidden');
-        bar.style.width = '0%';
-        
-        // Simulate actual file download
         const link = document.createElement('a');
-        link.href = type === 'exe' 
-          ? 'https://github.com/simo-SM/cybr-file1/releases/download/v2.0.0/cyberFileV2.exe'
-          :'https://github.com/simo-SM/cybr-file1/archive/refs/tags/v2.0.0.zip';
+        link.href = file.url;
         link.download = file.name;
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
-      }, 500);
+
+        if (typeof showToast === "function") {
+          showToast('Access Granted', `${file.name} transferred.`);
+        }
+        
+        progressDiv.classList.add('hidden');
+        bar.style.width = '0%';
+      }, 800);
     }
-  }, 200);
+  }, 150);
 }
 
 // Toast notification
