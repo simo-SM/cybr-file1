@@ -44,8 +44,8 @@ function downloadFile(type) {
         // Simulate actual file download
         const link = document.createElement('a');
         link.href = type === 'exe' 
-          ? 'https://github.com/simo-SM/cybr-file1/releases/download/v2.0/cybr-file.exe'
-          :'https://github.com/simo-SM/cybr-file1/archive/refs/tags/v2.0.zip';
+          ? 'https://github.com/simo-SM/cybr-file1/releases/download/v2.0.0/cyberFileV2.exe'
+          :'https://github.com/simo-SM/cybr-file1/archive/refs/tags/v2.0.0.zip';
         link.download = file.name;
         document.body.appendChild(link);
         link.click();
