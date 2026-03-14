@@ -7,18 +7,20 @@
 
 **Real-Time File Monitoring Tool** with Modern GUI, Multi-Alert System, and System Tray Integration.
 
-![Cyber-File GUI](images/screenshot.png)
+![image alt](images/cyberFileApp.png)
 
 ---
 
 ## 🗺️ Application Workflow (Mindmap)
 
 <p align="center">
-  <img src="[images/markmap.svg](https://github.com/simo-SM/cybr-file1/blob/8618bcb1988d3c819c824c37b7e066feef71847f/images/markmap.svg)" alt="Cyber-File Workflow" width="800">
+  <img src="imagesimages/markmap.svg" alt="Cyber-File Workflow" width="800">
 </p>
 
 ---
-
+---
+![image alt](images/cyberTerminale.png)
+---
 ## 📋 Table of Contents
 
 - [Features](#-features)
@@ -30,7 +32,10 @@
 - [Troubleshooting](#-troubleshooting)
 
 ---
+---
+![image alt](images/cyberTerminale2.png)
 
+---
 ## ✨ Features
 
 | Feature | Description |
