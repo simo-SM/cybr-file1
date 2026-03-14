@@ -1,7 +1,7 @@
 # 🔒 CYBER-FILE v2.7
 
 ![Version](https://img.shields.io/badge/version-2.0-blue)
-![Python](https://img.shields.io/badge/python-3.8+-green)
+![Python](https://img.shields.io/badge/python-3.13+-green)
 ![License](https://img.shields.io/badge/license-MIT-yellow)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20Mac-lightgrey)
 
@@ -14,7 +14,7 @@
 ## 🗺️ Application Workflow (Mindmap)
 
 <p align="center">
-  <img src="images/markmap (1).svg" alt="Cyber-File Workflow" width="800">
+  <img src="[images/markmap.svg](https://github.com/simo-SM/cybr-file1/blob/8618bcb1988d3c819c824c37b7e066feef71847f/images/markmap.svg)" alt="Cyber-File Workflow" width="800">
 </p>
 
 ---
